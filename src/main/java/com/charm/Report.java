@@ -15,7 +15,7 @@ public class Report {
 	private static Properties prop = new Properties();
 	
 	public static void setAuthorInfoForReports(String authorName){
-		ATUReports.setAuthorInfo(authorName, Utils.getCurrentTime(), "Charm-V-1.0");
+		ATUReports.setAuthorInfo(authorName, Utils.getCurrentTime(), "Charm-V-3.0");
 		}
 	public static void setIndexPageDescription(String projectName, String projectDescriptions){
 		ATUReports.indexPageDescription=projectName +"<br/> <b>"+projectName+ "is"+projectDescriptions+ "</b>";

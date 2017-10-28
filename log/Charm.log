@@ -6,3 +6,83 @@
 [28 Oct 2017 15:16:12,259] [ INFO] [] [LaunchApp                launch_Charm_App]:[46  ] - ==================Launching  charmBoard ===================
 [28 Oct 2017 15:17:09,974] [ INFO] [] [TC001                               TC001]:[35  ] -  TC001 
 [28 Oct 2017 15:17:09,981] [ INFO] [] [LaunchApp                launch_Charm_App]:[46  ] - ==================Launching  charmBoard ===================
+[28 Oct 2017 16:16:32,205] [ INFO] [] [TC001                               TC001]:[35  ] -  TC001 
+[28 Oct 2017 16:16:32,215] [ INFO] [] [LaunchApp                launch_Charm_App]:[46  ] - ==================Launching  charmBoard ===================
+[28 Oct 2017 16:16:43,711] [ INFO] [] [Home                          home_Search]:[26  ] - =============Search text===================
+[28 Oct 2017 16:16:44,198] [ INFO] [] [Home                          home_Search]:[31  ] - =======Search By Keyword :Shah rukh
+[28 Oct 2017 16:16:44,198] [ INFO] [] [Home                    click_on_2nd_list]:[40  ] - =============click on 2nd link from Home page===================
+[28 Oct 2017 16:16:44,198] [ INFO] [] [ReusableMethod                      pause]:[41  ] - ==============Wait for few seconds while page is loading properly==============
+[28 Oct 2017 16:16:49,294] [ INFO] [] [Home_page                  clickon2ndLink]:[36  ] - Find value from Home page ::?
+SAVE
+Picked for you
+Raj Randhir Bakshi/Kaali
+Shah Rukh Khan
+Gerua, Dilwale, 2015
+Top Charms
+[28 Oct 2017 16:16:49,342] [ INFO] [] [Home_page                  clickon2ndLink]:[38  ] - Navigate to Product select Page ...
+[28 Oct 2017 16:16:49,342] [ INFO] [] [ReusableMethod                      pause]:[41  ] - ==============Wait for few seconds while page is loading properly==============
+[28 Oct 2017 16:16:54,548] [ INFO] [] [Home_page                  clickon2ndLink]:[41  ] - Navigate to Product page ...
+[28 Oct 2017 16:37:14,685] [ INFO] [] [TC001                               TC001]:[35  ] -  TC001 
+[28 Oct 2017 16:37:14,685] [ INFO] [] [LaunchApp                launch_Charm_App]:[46  ] - ==================Launching  charmBoard ===================
+[28 Oct 2017 16:37:23,583] [ INFO] [] [Home                          home_Search]:[26  ] - =============Search text===================
+[28 Oct 2017 16:37:24,070] [ INFO] [] [Home                          home_Search]:[31  ] - =======Search By Keyword :Shah rukh
+[28 Oct 2017 16:37:24,070] [ INFO] [] [Home                    click_on_2nd_list]:[40  ] - =============click on 2nd link from Home page===================
+[28 Oct 2017 16:37:24,071] [ INFO] [] [ReusableMethod                      pause]:[41  ] - ==============Wait for few seconds while page is loading properly==============
+[28 Oct 2017 16:37:29,177] [ INFO] [] [Home_page                  clickon2ndLink]:[36  ] - Find value from Home page ::?
+SAVE
+Picked for you
+Raj Randhir Bakshi/Kaali
+Shah Rukh Khan
+Gerua, Dilwale, 2015
+Top Charms
+[28 Oct 2017 16:37:29,238] [ INFO] [] [Home_page                  clickon2ndLink]:[38  ] - Navigate to Product select Page ...
+[28 Oct 2017 16:37:29,239] [ INFO] [] [ReusableMethod                      pause]:[41  ] - ==============Wait for few seconds while page is loading properly==============
+[28 Oct 2017 16:37:34,436] [ INFO] [] [Home_page                  clickon2ndLink]:[41  ] - Navigate to Product page ...
+[28 Oct 2017 16:42:45,628] [ INFO] [] [TC001                               TC001]:[35  ] -  TC001 
+[28 Oct 2017 16:42:45,636] [ INFO] [] [LaunchApp                launch_Charm_App]:[46  ] - ==================Launching  charmBoard ===================
+[28 Oct 2017 16:42:54,606] [ INFO] [] [Home                          home_Search]:[26  ] - =============Search text===================
+[28 Oct 2017 16:42:55,156] [ INFO] [] [Home                          home_Search]:[31  ] - =======Search By Keyword :Shah rukh
+[28 Oct 2017 16:42:55,157] [ INFO] [] [Home                    click_on_2nd_list]:[40  ] - =============click on 2nd link from Home page===================
+[28 Oct 2017 16:42:55,157] [ INFO] [] [ReusableMethod                      pause]:[41  ] - ==============Wait for few seconds while page is loading properly==============
+[28 Oct 2017 16:43:00,249] [ INFO] [] [Home_page                  clickon2ndLink]:[36  ] - Find value from Home page ::?
+SAVE
+Picked for you
+Raj Randhir Bakshi/Kaali
+Shah Rukh Khan
+Gerua, Dilwale, 2015
+Top Charms
+[28 Oct 2017 16:43:00,293] [ INFO] [] [Home_page                  clickon2ndLink]:[38  ] - Navigate to Product select Page ...
+[28 Oct 2017 16:43:00,293] [ INFO] [] [ReusableMethod                      pause]:[41  ] - ==============Wait for few seconds while page is loading properly==============
+[28 Oct 2017 16:43:05,539] [ INFO] [] [Home_page                  clickon2ndLink]:[41  ] - Navigate to Product page ...
+[28 Oct 2017 16:44:48,477] [ INFO] [] [TC001                               TC001]:[35  ] -  TC001 
+[28 Oct 2017 16:44:48,487] [ INFO] [] [LaunchApp                launch_Charm_App]:[46  ] - ==================Launching  charmBoard ===================
+[28 Oct 2017 16:44:57,278] [ INFO] [] [Home                          home_Search]:[26  ] - =============Search text===================
+[28 Oct 2017 16:44:57,601] [ INFO] [] [Home                          home_Search]:[31  ] - =======Search By Keyword :Shah rukh
+[28 Oct 2017 16:44:57,601] [ INFO] [] [Home                    click_on_2nd_list]:[40  ] - =============click on 2nd link from Home page===================
+[28 Oct 2017 16:44:57,602] [ INFO] [] [ReusableMethod                      pause]:[41  ] - ==============Wait for few seconds while page is loading properly==============
+[28 Oct 2017 16:45:02,694] [ INFO] [] [Home_page                  clickon2ndLink]:[36  ] - Find value from Home page ::?
+SAVE
+Picked for you
+Raj Randhir Bakshi/Kaali
+Shah Rukh Khan
+Gerua, Dilwale, 2015
+Top Charms
+[28 Oct 2017 16:45:02,744] [ INFO] [] [Home_page                  clickon2ndLink]:[38  ] - Navigate to Product select Page ...
+[28 Oct 2017 16:45:02,744] [ INFO] [] [ReusableMethod                      pause]:[41  ] - ==============Wait for few seconds while page is loading properly==============
+[28 Oct 2017 16:45:07,939] [ INFO] [] [Home_page                  clickon2ndLink]:[41  ] - Navigate to Product page ...
+[28 Oct 2017 16:52:50,234] [ INFO] [] [TC001                               TC001]:[35  ] -  TC001 
+[28 Oct 2017 16:52:50,240] [ INFO] [] [LaunchApp                launch_Charm_App]:[46  ] - ==================Launching  charmBoard ===================
+[28 Oct 2017 16:52:59,070] [ INFO] [] [Home                          home_Search]:[26  ] - =============Search text===================
+[28 Oct 2017 16:52:59,572] [ INFO] [] [Home                          home_Search]:[31  ] - =======Search By Keyword :Shah rukh
+[28 Oct 2017 16:52:59,573] [ INFO] [] [Home                    click_on_2nd_list]:[40  ] - =============click on 2nd link from Home page===================
+[28 Oct 2017 16:52:59,573] [ INFO] [] [ReusableMethod                      pause]:[41  ] - ==============Wait for few seconds while page is loading properly==============
+[28 Oct 2017 16:53:04,687] [ INFO] [] [Home_page                  clickon2ndLink]:[36  ] - Find value from Home page ::?
+SAVE
+Picked for you
+Raj Randhir Bakshi/Kaali
+Shah Rukh Khan
+Gerua, Dilwale, 2015
+Top Charms
+[28 Oct 2017 16:53:04,727] [ INFO] [] [Home_page                  clickon2ndLink]:[38  ] - Navigate to Product select Page ...
+[28 Oct 2017 16:53:04,727] [ INFO] [] [ReusableMethod                      pause]:[41  ] - ==============Wait for few seconds while page is loading properly==============
+[28 Oct 2017 16:53:09,998] [ INFO] [] [Home_page                  clickon2ndLink]:[41  ] - Navigate to Product page ...
