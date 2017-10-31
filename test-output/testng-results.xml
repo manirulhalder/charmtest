@@ -1,23 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="19803" started-at="2017-10-28T11:22:50Z" finished-at="2017-10-28T11:23:10Z">
+  <suite name="Suite" duration-ms="23325" started-at="2017-10-31T14:55:13Z" finished-at="2017-10-31T14:55:36Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="19803" started-at="2017-10-28T11:22:50Z" finished-at="2017-10-28T11:23:10Z">
+    <test name="Test" duration-ms="23325" started-at="2017-10-31T14:55:13Z" finished-at="2017-10-31T14:55:36Z">
       <class name="com.charm.TC001">
-        <test-method status="PASS" signature="TC001()[pri:0, instance:com.charm.TC001@2a17b7b6]" name="TC001" duration-ms="8825" started-at="2017-10-28T16:52:50Z" finished-at="2017-10-28T16:52:59Z">
+        <test-method status="PASS" signature="TC001()[pri:0, instance:com.charm.TC001@48503868]" name="TC001" duration-ms="9659" started-at="2017-10-31T20:25:13Z" finished-at="2017-10-31T20:25:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC001 -->
       </class> <!-- com.charm.TC001 -->
       <class name="com.charm.TC002">
-        <test-method status="PASS" signature="Keyword_Search()[pri:0, instance:com.charm.TC002@76707e36]" name="Keyword_Search" duration-ms="10954" started-at="2017-10-28T16:52:59Z" finished-at="2017-10-28T16:53:09Z">
+        <test-method status="PASS" signature="Keyword_Search()[pri:0, instance:com.charm.TC002@56aac163]" name="Keyword_Search" duration-ms="10836" started-at="2017-10-31T20:25:23Z" finished-at="2017-10-31T20:25:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Keyword_Search -->
       </class> <!-- com.charm.TC002 -->
+      <class name="com.charm.getData">
+        <test-method status="PASS" signature="testApiresponsecode()[pri:1, instance:com.charm.getData@1f7030a6]" name="testApiresponsecode" duration-ms="2385" started-at="2017-10-31T20:25:33Z" finished-at="2017-10-31T20:25:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testApiresponsecode -->
+        <test-method status="PASS" signature="testApitime()[pri:2, instance:com.charm.getData@1f7030a6]" name="testApitime" duration-ms="390" started-at="2017-10-31T20:25:36Z" finished-at="2017-10-31T20:25:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testApitime -->
+      </class> <!-- com.charm.getData -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>
