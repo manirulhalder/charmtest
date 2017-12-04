@@ -51,7 +51,7 @@ public class LaunchApp {
 		String veriFy_URL=Driver.driver.getCurrentUrl();
 		if((prop.getProperty("URL").equals(veriFy_URL))){
 		Assert.assertEquals(prop.getProperty("URL"), veriFy_URL,"Pass:: URL is verified");
-			
+		Report_Screenshot.report_pass("Input Type: Application Launched","","Browser launched properly");
 			}else{
 		Assert.assertNotEquals(prop.getProperty("URL"),veriFy_URL,"Fail::   URL is not verified");	
 			}

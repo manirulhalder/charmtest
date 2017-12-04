@@ -3,11 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.charm.test">
+      <class name="com.charm.getApi">
         <methods>
-          <include name="TC001"/>
+          <include name="testGetResponseAsInputStream"/>
         </methods>
-      </class> <!-- com.charm.test -->
+      </class> <!-- com.charm.getApi -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -5,8 +5,10 @@
     <classes>
        <class name="com.charm.TC001"/>
       <class name="com.charm.TC002"/>
-      <class name ="com.charm.getData"/>
-      <!-- <class name="com.charm.TC003"/> -->
+      <class name ="com.charm.getApi"/> 
+      <class name="com.charm.TC003"/>
+      
+       
       
     </classes>
   </test> <!-- Test -->

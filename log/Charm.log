@@ -1,212 +1,106 @@
-[31 Oct 2017 16:51:12,278] [ INFO] [] [TC001                               TC001]:[35  ] -  TC001 
-[31 Oct 2017 16:51:12,317] [ INFO] [] [LaunchApp                launch_Charm_App]:[46  ] - ==================Launching  charmBoard ===================
-[31 Oct 2017 16:51:30,778] [ INFO] [] [Home                          home_Search]:[26  ] - =============Search text===================
-[31 Oct 2017 16:51:31,199] [ INFO] [] [Home                          home_Search]:[31  ] - =======Search By Keyword :Shah rukh
-[31 Oct 2017 16:51:31,199] [ INFO] [] [Home                    click_on_2nd_list]:[40  ] - =============click on 2nd link from Home page===================
-[31 Oct 2017 16:51:31,200] [ INFO] [] [ReusableMethod                      pause]:[41  ] - ==============Wait for few seconds while page is loading properly==============
-[31 Oct 2017 16:51:36,405] [ INFO] [] [Home_page                  clickon2ndLink]:[36  ] - Find value from Home page ::?
-SAVE
-Picked for you
-Raj Randhir Bakshi/Kaali
-Shah Rukh Khan
-Gerua, Dilwale, 2015
-Top Charms
-[31 Oct 2017 16:51:36,584] [ INFO] [] [Home_page                  clickon2ndLink]:[38  ] - Navigate to Product select Page ...
-[31 Oct 2017 16:51:36,585] [ INFO] [] [ReusableMethod                      pause]:[41  ] - ==============Wait for few seconds while page is loading properly==============
-[31 Oct 2017 16:51:41,654] [ERROR] [] [Home                    click_on_2nd_list]:[43  ] - Error While click on 2nd Link from Home page
-org.openqa.selenium.NoSuchElementException: Unable to locate element: //div[@class='mdl-layout__header-row show_category']/following-sibling::div[6]/div/div/div[1]/div/div[1]/div[1]/div[1]/a
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
-System info: host: 'LENOVO-PC', ip: '192.168.1.144', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_101'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{rotatable=false, raisesAccessibilityExceptions=false, appBuildId=20160421124000, version=46.0, platform=XP, proxy=Proxy(), specificationLevel=1, acceptSslCerts=false, browserVersion=46.0, platformVersion=6.1, XULappId={ec8030f7-c20a-464f-9b0e-13a3a9e97384}, browserName=Firefox, takesScreenshot=true, takesElementScreenshot=true, javascriptEnabled=true, platformName=XP, device=desktop}]
-Session ID: 0b97239d-4c2d-479a-ada6-fa48e508bb93
-*** Element info: {Using=xpath, value=//div[@class='mdl-layout__header-row show_category']/following-sibling::div[6]/div/div/div[1]/div/div[1]/div[1]/div[1]/a}
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:646)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:416)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:518)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:408)
-	at com.charm.Pom.Home_page.clickon2ndLink(Home_page.java:40)
-	at com.charm.Business.Home.click_on_2nd_list(Home.java:41)
-	at com.charm.TC002.Keyword_Search(TC002.java:15)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:100)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:811)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1137)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
-	at org.testng.TestRunner.privateRun(TestRunner.java:753)
-	at org.testng.TestRunner.run(TestRunner.java:607)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:368)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:363)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:321)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:270)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1284)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1209)
-	at org.testng.TestNG.runSuites(TestNG.java:1124)
-	at org.testng.TestNG.run(TestNG.java:1096)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
-[31 Oct 2017 16:52:35,349] [ INFO] [] [TC001                               TC001]:[35  ] -  TC001 
-[31 Oct 2017 16:52:35,356] [ INFO] [] [LaunchApp                launch_Charm_App]:[46  ] - ==================Launching  charmBoard ===================
-[31 Oct 2017 16:52:45,512] [ INFO] [] [Home                          home_Search]:[26  ] - =============Search text===================
-[31 Oct 2017 16:52:45,911] [ INFO] [] [Home                          home_Search]:[31  ] - =======Search By Keyword :Shah rukh
-[31 Oct 2017 16:52:45,912] [ INFO] [] [Home                    click_on_2nd_list]:[40  ] - =============click on 2nd link from Home page===================
-[31 Oct 2017 16:52:45,912] [ INFO] [] [ReusableMethod                      pause]:[41  ] - ==============Wait for few seconds while page is loading properly==============
-[31 Oct 2017 16:52:51,249] [ INFO] [] [Home_page                  clickon2ndLink]:[36  ] - Find value from Home page ::?
-SAVE
-Picked for you
-Raj Randhir Bakshi/Kaali
-Shah Rukh Khan
-Gerua, Dilwale, 2015
-Top Charms
-[31 Oct 2017 16:52:51,303] [ INFO] [] [Home_page                  clickon2ndLink]:[38  ] - Navigate to Product select Page ...
-[31 Oct 2017 16:52:51,304] [ INFO] [] [ReusableMethod                      pause]:[41  ] - ==============Wait for few seconds while page is loading properly==============
-[31 Oct 2017 16:52:56,561] [ INFO] [] [Home_page                  clickon2ndLink]:[41  ] - Navigate to Product page ...
-[31 Oct 2017 20:04:58,470] [ INFO] [] [TC001                               TC001]:[35  ] -  TC001 
-[31 Oct 2017 20:04:58,517] [ INFO] [] [LaunchApp                launch_Charm_App]:[46  ] - ==================Launching  charmBoard ===================
-[31 Oct 2017 20:05:18,784] [ INFO] [] [Home                          home_Search]:[26  ] - =============Search text===================
-[31 Oct 2017 20:05:21,786] [ INFO] [] [Home                          home_Search]:[31  ] - =======Search By Keyword :Shah rukh
-[31 Oct 2017 20:05:21,786] [ INFO] [] [Home                    click_on_2nd_list]:[40  ] - =============click on 2nd link from Home page===================
-[31 Oct 2017 20:05:21,787] [ INFO] [] [ReusableMethod                      pause]:[41  ] - ==============Wait for few seconds while page is loading properly==============
-[31 Oct 2017 20:05:27,185] [ INFO] [] [Home_page                  clickon2ndLink]:[36  ] - Find value from Home page ::?
-SAVE
-Picked for you
-Raj Randhir Bakshi/Kaali
-Shah Rukh Khan
-Gerua, Dilwale, 2015
-Top Charms
-[31 Oct 2017 20:05:27,234] [ INFO] [] [Home_page                  clickon2ndLink]:[38  ] - Navigate to Product select Page ...
-[31 Oct 2017 20:05:27,234] [ INFO] [] [ReusableMethod                      pause]:[41  ] - ==============Wait for few seconds while page is loading properly==============
-[31 Oct 2017 20:05:32,620] [ERROR] [] [Home                    click_on_2nd_list]:[43  ] - Error While click on 2nd Link from Home page
-org.openqa.selenium.NoSuchElementException: Unable to locate element: //div[@class='mdl-layout__header-row show_category']/following-sibling::div[6]/div/div/div[1]/div/div[1]/div[1]/div[1]/a
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
-System info: host: 'LENOVO-PC', ip: '192.168.1.144', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_101'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{rotatable=false, raisesAccessibilityExceptions=false, appBuildId=20160421124000, version=46.0, platform=XP, proxy=Proxy(), specificationLevel=1, acceptSslCerts=false, browserVersion=46.0, platformVersion=6.1, XULappId={ec8030f7-c20a-464f-9b0e-13a3a9e97384}, browserName=Firefox, takesScreenshot=true, takesElementScreenshot=true, javascriptEnabled=true, platformName=XP, device=desktop}]
-Session ID: 6ed047a8-0308-46fe-a14e-adede2a7bc3c
-*** Element info: {Using=xpath, value=//div[@class='mdl-layout__header-row show_category']/following-sibling::div[6]/div/div/div[1]/div/div[1]/div[1]/div[1]/a}
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:646)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:416)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:518)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:408)
-	at com.charm.Pom.Home_page.clickon2ndLink(Home_page.java:40)
-	at com.charm.Business.Home.click_on_2nd_list(Home.java:41)
-	at com.charm.TC002.Keyword_Search(TC002.java:15)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:100)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:811)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1137)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
-	at org.testng.TestRunner.privateRun(TestRunner.java:753)
-	at org.testng.TestRunner.run(TestRunner.java:607)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:368)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:363)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:321)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:270)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1284)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1209)
-	at org.testng.TestNG.runSuites(TestNG.java:1124)
-	at org.testng.TestNG.run(TestNG.java:1096)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
-[31 Oct 2017 20:09:10,628] [ INFO] [] [TC001                               TC001]:[35  ] -  TC001 
-[31 Oct 2017 20:09:10,634] [ INFO] [] [LaunchApp                launch_Charm_App]:[46  ] - ==================Launching  charmBoard ===================
-[31 Oct 2017 20:09:20,328] [ INFO] [] [Home                          home_Search]:[26  ] - =============Search text===================
-[31 Oct 2017 20:09:20,721] [ INFO] [] [Home                          home_Search]:[31  ] - =======Search By Keyword :Shah rukh
-[31 Oct 2017 20:09:20,721] [ INFO] [] [Home                    click_on_2nd_list]:[40  ] - =============click on 2nd link from Home page===================
-[31 Oct 2017 20:09:20,722] [ INFO] [] [ReusableMethod                      pause]:[41  ] - ==============Wait for few seconds while page is loading properly==============
-[31 Oct 2017 20:09:25,803] [ INFO] [] [Home_page                  clickon2ndLink]:[36  ] - Find value from Home page ::?
-SAVE
-Picked for you
-Raj Randhir Bakshi/Kaali
-Shah Rukh Khan
-Gerua, Dilwale, 2015
-Top Charms
-[31 Oct 2017 20:09:25,869] [ INFO] [] [Home_page                  clickon2ndLink]:[38  ] - Navigate to Product select Page ...
-[31 Oct 2017 20:09:25,869] [ INFO] [] [ReusableMethod                      pause]:[41  ] - ==============Wait for few seconds while page is loading properly==============
-[31 Oct 2017 20:09:31,082] [ INFO] [] [Home_page                  clickon2ndLink]:[41  ] - Navigate to Product page ...
-[31 Oct 2017 20:13:35,160] [ INFO] [] [TC001                               TC001]:[35  ] -  TC001 
-[31 Oct 2017 20:13:35,169] [ INFO] [] [LaunchApp                launch_Charm_App]:[46  ] - ==================Launching  charmBoard ===================
-[31 Oct 2017 20:13:43,806] [ INFO] [] [Home                          home_Search]:[26  ] - =============Search text===================
-[31 Oct 2017 20:13:44,223] [ INFO] [] [Home                          home_Search]:[31  ] - =======Search By Keyword :Shah rukh
-[31 Oct 2017 20:13:44,223] [ INFO] [] [Home                    click_on_2nd_list]:[40  ] - =============click on 2nd link from Home page===================
-[31 Oct 2017 20:13:44,223] [ INFO] [] [ReusableMethod                      pause]:[41  ] - ==============Wait for few seconds while page is loading properly==============
-[31 Oct 2017 20:13:49,395] [ INFO] [] [Home_page                  clickon2ndLink]:[36  ] - Find value from Home page ::?
-SAVE
-Picked for you
-Raj Randhir Bakshi/Kaali
-Shah Rukh Khan
-Gerua, Dilwale, 2015
-Top Charms
-[31 Oct 2017 20:13:49,453] [ INFO] [] [Home_page                  clickon2ndLink]:[38  ] - Navigate to Product select Page ...
-[31 Oct 2017 20:13:49,453] [ INFO] [] [ReusableMethod                      pause]:[41  ] - ==============Wait for few seconds while page is loading properly==============
-[31 Oct 2017 20:13:54,632] [ INFO] [] [Home_page                  clickon2ndLink]:[41  ] - Navigate to Product page ...
-[31 Oct 2017 20:17:58,747] [ INFO] [] [TC001                               TC001]:[35  ] -  TC001 
-[31 Oct 2017 20:17:58,776] [ INFO] [] [LaunchApp                launch_Charm_App]:[46  ] - ==================Launching  charmBoard ===================
-[31 Oct 2017 20:18:07,462] [ INFO] [] [Home                          home_Search]:[26  ] - =============Search text===================
-[31 Oct 2017 20:18:08,067] [ INFO] [] [Home                          home_Search]:[31  ] - =======Search By Keyword :Shah rukh
-[31 Oct 2017 20:18:08,067] [ INFO] [] [Home                    click_on_2nd_list]:[40  ] - =============click on 2nd link from Home page===================
-[31 Oct 2017 20:18:08,068] [ INFO] [] [ReusableMethod                      pause]:[41  ] - ==============Wait for few seconds while page is loading properly==============
-[31 Oct 2017 20:18:13,172] [ INFO] [] [Home_page                  clickon2ndLink]:[36  ] - Find value from Home page ::?
-SAVE
-Picked for you
-Raj Randhir Bakshi/Kaali
-Shah Rukh Khan
-Gerua, Dilwale, 2015
-Top Charms
-[31 Oct 2017 20:18:13,237] [ INFO] [] [Home_page                  clickon2ndLink]:[38  ] - Navigate to Product select Page ...
-[31 Oct 2017 20:18:13,237] [ INFO] [] [ReusableMethod                      pause]:[41  ] - ==============Wait for few seconds while page is loading properly==============
-[31 Oct 2017 20:18:18,472] [ INFO] [] [Home_page                  clickon2ndLink]:[41  ] - Navigate to Product page ...
-[31 Oct 2017 20:25:13,375] [ INFO] [] [TC001                               TC001]:[35  ] -  TC001 
-[31 Oct 2017 20:25:13,384] [ INFO] [] [LaunchApp                launch_Charm_App]:[46  ] - ==================Launching  charmBoard ===================
-[31 Oct 2017 20:25:23,060] [ INFO] [] [Home                          home_Search]:[26  ] - =============Search text===================
-[31 Oct 2017 20:25:23,530] [ INFO] [] [Home                          home_Search]:[31  ] - =======Search By Keyword :Shah rukh
-[31 Oct 2017 20:25:23,530] [ INFO] [] [Home                    click_on_2nd_list]:[40  ] - =============click on 2nd link from Home page===================
-[31 Oct 2017 20:25:23,531] [ INFO] [] [ReusableMethod                      pause]:[41  ] - ==============Wait for few seconds while page is loading properly==============
-[31 Oct 2017 20:25:28,616] [ INFO] [] [Home_page                  clickon2ndLink]:[36  ] - Find value from Home page ::?
-SAVE
-Picked for you
-Raj Randhir Bakshi/Kaali
-Shah Rukh Khan
-Gerua, Dilwale, 2015
-Top Charms
-[31 Oct 2017 20:25:28,651] [ INFO] [] [Home_page                  clickon2ndLink]:[38  ] - Navigate to Product select Page ...
-[31 Oct 2017 20:25:28,651] [ INFO] [] [ReusableMethod                      pause]:[41  ] - ==============Wait for few seconds while page is loading properly==============
-[31 Oct 2017 20:25:33,854] [ INFO] [] [Home_page                  clickon2ndLink]:[41  ] - Navigate to Product page ...
+[04 Dec 2017 13:10:03,756] [ INFO] [] [TC001                               TC001]:[41  ] -  TC001 
+[04 Dec 2017 13:10:05,132] [ INFO] [] [LaunchApp                launch_Charm_App]:[46  ] - ==================Launching  charmBoard ===================
+[04 Dec 2017 13:10:28,122] [ INFO] [] [Home                          home_Search]:[26  ] - =============Search text===================
+[04 Dec 2017 13:10:28,585] [ INFO] [] [Home                          home_Search]:[31  ] - =======Search By Keyword :Shah rukh
+[04 Dec 2017 13:10:28,586] [ INFO] [] [Home                    click_on_2nd_list]:[40  ] - =============click on 2nd link from Home page===================
+[04 Dec 2017 13:10:28,586] [ INFO] [] [ReusableMethod                      pause]:[41  ] - ==============Wait for few seconds while page is loading properly==============
+[04 Dec 2017 13:10:33,620] [ INFO] [] [Home_page                  clickon2ndLink]:[48  ] - Find value from Home page ::
+[04 Dec 2017 13:10:33,733] [ INFO] [] [Home_page                  clickon2ndLink]:[50  ] - Navigate to Product select Page ...
+[04 Dec 2017 13:10:33,734] [ INFO] [] [ReusableMethod                      pause]:[41  ] - ==============Wait for few seconds while page is loading properly==============
+[04 Dec 2017 13:10:38,950] [ INFO] [] [Home_page                  clickon2ndLink]:[53  ] - Navigate to Product page ...
+[04 Dec 2017 14:48:51,912] [ INFO] [] [TC001                               TC001]:[41  ] -  TC001 
+[04 Dec 2017 14:48:52,246] [ INFO] [] [LaunchApp                launch_Charm_App]:[46  ] - ==================Launching  charmBoard ===================
+[04 Dec 2017 14:49:03,242] [ INFO] [] [Home                          home_Search]:[26  ] - =============Search text===================
+[04 Dec 2017 14:49:03,727] [ INFO] [] [Home                          home_Search]:[31  ] - =======Search By Keyword :Shah rukh
+[04 Dec 2017 14:49:03,728] [ INFO] [] [Home                    click_on_2nd_list]:[40  ] - =============click on 2nd link from Home page===================
+[04 Dec 2017 14:49:03,728] [ INFO] [] [ReusableMethod                      pause]:[41  ] - ==============Wait for few seconds while page is loading properly==============
+[04 Dec 2017 14:49:08,780] [ INFO] [] [Home_page                  clickon2ndLink]:[48  ] - Find value from Home page ::
+[04 Dec 2017 14:49:08,959] [ INFO] [] [Home_page                  clickon2ndLink]:[50  ] - Navigate to Product select Page ...
+[04 Dec 2017 14:49:08,959] [ INFO] [] [ReusableMethod                      pause]:[41  ] - ==============Wait for few seconds while page is loading properly==============
+[04 Dec 2017 14:49:14,171] [ INFO] [] [Home_page                  clickon2ndLink]:[53  ] - Navigate to Product page ...
+[04 Dec 2017 15:08:55,009] [ INFO] [] [TC001                               TC001]:[41  ] -  TC001 
+[04 Dec 2017 15:08:55,384] [ INFO] [] [LaunchApp                launch_Charm_App]:[46  ] - ==================Launching  charmBoard ===================
+[04 Dec 2017 15:09:08,098] [ INFO] [] [TC002                      Keyword_Search]:[24  ] -  TC002 
+[04 Dec 2017 15:09:08,188] [ INFO] [] [Home                          home_Search]:[26  ] - =============Search text===================
+[04 Dec 2017 15:09:08,524] [ INFO] [] [Home                          home_Search]:[31  ] - =======Search By Keyword :Shah rukh
+[04 Dec 2017 15:09:08,524] [ INFO] [] [Home                    click_on_2nd_list]:[40  ] - =============click on 2nd link from Home page===================
+[04 Dec 2017 15:09:08,524] [ INFO] [] [ReusableMethod                      pause]:[41  ] - ==============Wait for few seconds while page is loading properly==============
+[04 Dec 2017 15:09:13,546] [ INFO] [] [Home_page                  clickon2ndLink]:[48  ] - Find value from Home page ::
+[04 Dec 2017 15:09:13,676] [ INFO] [] [Home_page                  clickon2ndLink]:[50  ] - Navigate to Product select Page ...
+[04 Dec 2017 15:09:13,677] [ INFO] [] [ReusableMethod                      pause]:[41  ] - ==============Wait for few seconds while page is loading properly==============
+[04 Dec 2017 15:09:18,919] [ INFO] [] [Home_page                  clickon2ndLink]:[53  ] - Navigate to Product page ...
+[04 Dec 2017 15:12:08,904] [ INFO] [] [TC001                               TC001]:[41  ] -  TC001 
+[04 Dec 2017 15:12:09,295] [ INFO] [] [LaunchApp                launch_Charm_App]:[46  ] - ==================Launching  charmBoard ===================
+[04 Dec 2017 15:12:22,027] [ INFO] [] [TC002                      Keyword_Search]:[24  ] -  TC002 
+[04 Dec 2017 15:12:22,041] [ INFO] [] [Home                          home_Search]:[26  ] - =============Search text===================
+[04 Dec 2017 15:12:22,250] [ INFO] [] [Home                          home_Search]:[31  ] - =======Search By Keyword :Shah rukh
+[04 Dec 2017 15:12:22,251] [ INFO] [] [Home                    click_on_2nd_list]:[40  ] - =============click on 2nd link from Home page===================
+[04 Dec 2017 15:12:22,251] [ INFO] [] [ReusableMethod                      pause]:[41  ] - ==============Wait for few seconds while page is loading properly==============
+[04 Dec 2017 15:12:27,273] [ INFO] [] [Home_page                  clickon2ndLink]:[48  ] - Find value from Home page ::
+[04 Dec 2017 15:12:27,351] [ INFO] [] [Home_page                  clickon2ndLink]:[50  ] - Navigate to Product select Page ...
+[04 Dec 2017 15:12:27,351] [ INFO] [] [ReusableMethod                      pause]:[41  ] - ==============Wait for few seconds while page is loading properly==============
+[04 Dec 2017 15:12:32,529] [ INFO] [] [Home_page                  clickon2ndLink]:[53  ] - Navigate to Product page ...
+[04 Dec 2017 15:24:36,263] [ INFO] [] [TC001                               TC001]:[41  ] -  TC001 
+[04 Dec 2017 15:24:36,795] [ INFO] [] [LaunchApp                launch_Charm_App]:[46  ] - ==================Launching  charmBoard ===================
+[04 Dec 2017 15:24:50,124] [ INFO] [] [TC002                      Keyword_Search]:[28  ] -  TC002 
+[04 Dec 2017 15:24:50,498] [ INFO] [] [Home                          home_Search]:[26  ] - =============Search text===================
+[04 Dec 2017 15:24:51,005] [ INFO] [] [Home                          home_Search]:[31  ] - =======Search By Keyword :Shah rukh
+[04 Dec 2017 15:24:51,006] [ INFO] [] [Home                    click_on_2nd_list]:[40  ] - =============click on 2nd link from Home page===================
+[04 Dec 2017 15:24:51,006] [ INFO] [] [ReusableMethod                      pause]:[41  ] - ==============Wait for few seconds while page is loading properly==============
+[04 Dec 2017 15:24:56,025] [ INFO] [] [Home_page                  clickon2ndLink]:[48  ] - Find value from Home page ::
+[04 Dec 2017 15:24:56,148] [ INFO] [] [Home_page                  clickon2ndLink]:[50  ] - Navigate to Product select Page ...
+[04 Dec 2017 15:24:56,148] [ INFO] [] [ReusableMethod                      pause]:[41  ] - ==============Wait for few seconds while page is loading properly==============
+[04 Dec 2017 15:25:01,625] [ INFO] [] [Home_page                  clickon2ndLink]:[53  ] - Navigate to Product page ...
+[04 Dec 2017 15:29:37,848] [ INFO] [] [TC001                               TC001]:[41  ] -  TC001 
+[04 Dec 2017 15:29:38,242] [ INFO] [] [LaunchApp                launch_Charm_App]:[46  ] - ==================Launching  charmBoard ===================
+[04 Dec 2017 15:30:05,182] [ INFO] [] [TC002                      Keyword_Search]:[28  ] -  TC002 
+[04 Dec 2017 15:30:05,538] [ INFO] [] [Home                          home_Search]:[26  ] - =============Search text===================
+[04 Dec 2017 15:30:05,773] [ INFO] [] [Home                          home_Search]:[31  ] - =======Search By Keyword :Shah rukh
+[04 Dec 2017 15:30:05,774] [ INFO] [] [Home                    click_on_2nd_list]:[40  ] - =============click on 2nd link from Home page===================
+[04 Dec 2017 15:30:05,774] [ INFO] [] [ReusableMethod                      pause]:[41  ] - ==============Wait for few seconds while page is loading properly==============
+[04 Dec 2017 15:30:10,809] [ INFO] [] [Home_page                  clickon2ndLink]:[48  ] - Find value from Home page ::
+[04 Dec 2017 15:30:10,926] [ INFO] [] [Home_page                  clickon2ndLink]:[50  ] - Navigate to Product select Page ...
+[04 Dec 2017 15:30:10,926] [ INFO] [] [ReusableMethod                      pause]:[41  ] - ==============Wait for few seconds while page is loading properly==============
+[04 Dec 2017 15:30:16,496] [ INFO] [] [Home_page                  clickon2ndLink]:[53  ] - Navigate to Product page ...
+[04 Dec 2017 16:17:50,973] [ INFO] [] [TC001                               TC001]:[41  ] -  TC001 
+[04 Dec 2017 16:17:51,353] [ INFO] [] [LaunchApp                launch_Charm_App]:[46  ] - ==================Launching  charmBoard ===================
+[04 Dec 2017 16:18:05,966] [ INFO] [] [TC002                      Keyword_Search]:[28  ] -  TC002 
+[04 Dec 2017 16:18:06,567] [ INFO] [] [Home                          home_Search]:[26  ] - =============Search text===================
+[04 Dec 2017 16:18:06,738] [ INFO] [] [Home                          home_Search]:[31  ] - =======Search By Keyword :Shah rukh
+[04 Dec 2017 16:18:06,738] [ INFO] [] [Home                    click_on_2nd_list]:[40  ] - =============click on 2nd link from Home page===================
+[04 Dec 2017 16:18:06,738] [ INFO] [] [ReusableMethod                      pause]:[41  ] - ==============Wait for few seconds while page is loading properly==============
+[04 Dec 2017 16:18:11,820] [ INFO] [] [Home_page                  clickon2ndLink]:[48  ] - Find value from Home page ::
+[04 Dec 2017 16:18:11,893] [ INFO] [] [Home_page                  clickon2ndLink]:[50  ] - Navigate to Product select Page ...
+[04 Dec 2017 16:18:11,893] [ INFO] [] [ReusableMethod                      pause]:[41  ] - ==============Wait for few seconds while page is loading properly==============
+[04 Dec 2017 16:18:17,201] [ INFO] [] [Home_page                  clickon2ndLink]:[53  ] - Navigate to Product page ...
+[04 Dec 2017 16:18:20,657] [ INFO] [] [getApi                testApiresponsecode]:[40  ] -  getApi 
+[04 Dec 2017 16:18:23,727] [ INFO] [] [getApi                        testApitime]:[75  ] -  getApi 
+[04 Dec 2017 16:18:24,558] [ INFO] [] [getApi               testExtractDetailsusingResponse]:[105 ] -  getApi 
+[04 Dec 2017 16:22:23,027] [ INFO] [] [TC001                               TC001]:[41  ] -  TC001 
+[04 Dec 2017 16:22:23,357] [ INFO] [] [LaunchApp                launch_Charm_App]:[46  ] - ==================Launching  charmBoard ===================
+[04 Dec 2017 16:22:37,130] [ INFO] [] [TC002                      Keyword_Search]:[28  ] -  TC002 
+[04 Dec 2017 16:22:37,529] [ INFO] [] [Home                          home_Search]:[26  ] - =============Search text===================
+[04 Dec 2017 16:22:37,756] [ INFO] [] [Home                          home_Search]:[31  ] - =======Search By Keyword :Shah rukh
+[04 Dec 2017 16:22:37,756] [ INFO] [] [Home                    click_on_2nd_list]:[40  ] - =============click on 2nd link from Home page===================
+[04 Dec 2017 16:22:37,756] [ INFO] [] [ReusableMethod                      pause]:[41  ] - ==============Wait for few seconds while page is loading properly==============
+[04 Dec 2017 16:22:42,798] [ INFO] [] [Home_page                  clickon2ndLink]:[48  ] - Find value from Home page ::
+[04 Dec 2017 16:22:42,908] [ INFO] [] [Home_page                  clickon2ndLink]:[50  ] - Navigate to Product select Page ...
+[04 Dec 2017 16:22:42,909] [ INFO] [] [ReusableMethod                      pause]:[41  ] - ==============Wait for few seconds while page is loading properly==============
+[04 Dec 2017 16:22:48,085] [ INFO] [] [Home_page                  clickon2ndLink]:[53  ] - Navigate to Product page ...
+[04 Dec 2017 16:23:04,475] [ INFO] [] [getApi                testApiresponsecode]:[40  ] -  getApi 
+[04 Dec 2017 16:23:07,053] [ INFO] [] [getApi                        testApitime]:[75  ] -  getApi 
+[04 Dec 2017 16:23:07,696] [ INFO] [] [getApi               testExtractDetailsusingResponse]:[105 ] -  getApi 
+[04 Dec 2017 16:27:08,327] [ INFO] [] [TC001                               TC001]:[41  ] -  TC001 
+[04 Dec 2017 16:27:08,632] [ INFO] [] [LaunchApp                launch_Charm_App]:[46  ] - ==================Launching  charmBoard ===================
+[04 Dec 2017 16:27:20,998] [ INFO] [] [TC002                      Keyword_Search]:[28  ] -  TC002 
+[04 Dec 2017 16:27:21,250] [ INFO] [] [Home                          home_Search]:[26  ] - =============Search text===================
+[04 Dec 2017 16:27:21,406] [ INFO] [] [Home                          home_Search]:[31  ] - =======Search By Keyword :Shah rukh
+[04 Dec 2017 16:27:21,407] [ INFO] [] [Home                    click_on_2nd_list]:[40  ] - =============click on 2nd link from Home page===================
+[04 Dec 2017 16:27:21,407] [ INFO] [] [ReusableMethod                      pause]:[41  ] - ==============Wait for few seconds while page is loading properly==============
+[04 Dec 2017 16:27:26,449] [ INFO] [] [Home_page                  clickon2ndLink]:[48  ] - Find value from Home page ::
+[04 Dec 2017 16:27:26,532] [ INFO] [] [Home_page                  clickon2ndLink]:[50  ] - Navigate to Product select Page ...
+[04 Dec 2017 16:27:26,532] [ INFO] [] [ReusableMethod                      pause]:[41  ] - ==============Wait for few seconds while page is loading properly==============
+[04 Dec 2017 16:27:31,745] [ INFO] [] [Home_page                  clickon2ndLink]:[53  ] - Navigate to Product page ...
+[04 Dec 2017 16:27:32,776] [ INFO] [] [getApi                testApiresponsecode]:[40  ] -  getApi 
+[04 Dec 2017 16:27:35,590] [ INFO] [] [getApi                        testApitime]:[75  ] -  getApi 
+[04 Dec 2017 16:27:36,165] [ INFO] [] [getApi               testExtractDetailsusingResponse]:[105 ] -  getApi 

@@ -21,9 +21,21 @@ public class Home_page {
 
 	
 	//store locatrs for Home age
-	By search_Box=By.xpath("//input[@id='searchinputbox']");
-	By click_on_2nd_Link=By.xpath("//div[@id='search_actions']/following-sibling::div/div[2]/div/div");
-	By click_on_product=By.xpath("//div[@class='mdl-layout__header-row show_category']/following-sibling::div[6]/div/div/div[1]/div/div[1]/div[1]/div[1]/a");
+	By search_Box=By.xpath("//input[@id='searchbox']");
+	By click_on_2nd_Link=By.xpath(".//*[@id='charm_image_317862']/img");
+	
+	//.//*[@id='charm_image_317862']/img  // .//*[@id='charm_image_282193']/img
+	
+	
+	// //a[contains(text(),'Rahul Khanna')])[1])
+	
+	
+	
+	By click_on_product=By.xpath(".//*[@id='mediaimage_304834']");
+	
+	//.//*[@id='mediaimage_304834']
+	
+	////div[@class='mdl-layout__header-row show_category']/following-sibling::div[6]/div/div/div[1]/div/div[1]/div[1]/div[1]/a
 	
 	
 	public void  search(String Value){
