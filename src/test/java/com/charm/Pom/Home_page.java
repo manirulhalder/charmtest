@@ -20,7 +20,7 @@ public class Home_page {
 	Logger logger = Logger.getLogger(Home_page.class.getName());
 
 	
-	//store locatrs for Home age
+	//store locaters for Home age
 	By search_Box=By.xpath("//input[@id='searchbox']");
 	By click_on_2nd_Link=By.xpath(".//*[@id='charm_image_317862']/img");
 	

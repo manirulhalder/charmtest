@@ -1,0 +1,144 @@
+[22 Nov 2017 11:23:30,801] [ INFO] [] [TC001                               TC001]:[41  ] -  TC001 
+[22 Nov 2017 11:23:31,127] [ INFO] [] [LaunchApp                launch_Charm_App]:[46  ] - ==================Launching  charmBoard ===================
+[22 Nov 2017 11:23:54,394] [ INFO] [] [Home                          home_Search]:[26  ] - =============Search text===================
+[22 Nov 2017 11:23:55,124] [ INFO] [] [Home                          home_Search]:[31  ] - =======Search By Keyword :Shah rukh
+[22 Nov 2017 11:23:55,124] [ INFO] [] [Home                    click_on_2nd_list]:[40  ] - =============click on 2nd link from Home page===================
+[22 Nov 2017 11:23:55,124] [ INFO] [] [ReusableMethod                      pause]:[41  ] - ==============Wait for few seconds while page is loading properly==============
+[22 Nov 2017 11:24:00,244] [ERROR] [] [Home                    click_on_2nd_list]:[43  ] - Error While click on 2nd Link from Home page
+org.openqa.selenium.NoSuchElementException: Unable to locate element: .//*[@id='charm_image_282193']/img
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
+System info: host: 'LENOVO-PC', ip: '172.16.0.6', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{rotatable=false, raisesAccessibilityExceptions=false, appBuildId=20160421124000, version=46.0, platform=XP, proxy=Proxy(), specificationLevel=1, acceptSslCerts=false, browserVersion=46.0, platformVersion=6.1, XULappId={ec8030f7-c20a-464f-9b0e-13a3a9e97384}, browserName=Firefox, takesScreenshot=true, takesElementScreenshot=true, javascriptEnabled=true, platformName=XP, device=desktop}]
+Session ID: 06450808-e744-4790-953a-69773cc3272c
+*** Element info: {Using=xpath, value=.//*[@id='charm_image_282193']/img}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:646)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:416)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:518)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:408)
+	at com.charm.Pom.Home_page.clickon2ndLink(Home_page.java:41)
+	at com.charm.Business.Home.click_on_2nd_list(Home.java:41)
+	at com.charm.TC002.Keyword_Search(TC002.java:15)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:100)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:811)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1137)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:753)
+	at org.testng.TestRunner.run(TestRunner.java:607)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:368)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:363)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:321)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:270)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1284)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1209)
+	at org.testng.TestNG.runSuites(TestNG.java:1124)
+	at org.testng.TestNG.run(TestNG.java:1096)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+[22 Nov 2017 17:01:02,202] [ INFO] [] [TC001                               TC001]:[41  ] -  TC001 
+[22 Nov 2017 17:01:02,580] [ INFO] [] [LaunchApp                launch_Charm_App]:[46  ] - ==================Launching  charmBoard ===================
+[22 Nov 2017 17:01:30,520] [ INFO] [] [Home                          home_Search]:[26  ] - =============Search text===================
+[22 Nov 2017 17:01:33,020] [ INFO] [] [Home                          home_Search]:[31  ] - =======Search By Keyword :Shah rukh
+[22 Nov 2017 17:01:33,021] [ INFO] [] [Home                    click_on_2nd_list]:[40  ] - =============click on 2nd link from Home page===================
+[22 Nov 2017 17:01:33,021] [ INFO] [] [ReusableMethod                      pause]:[41  ] - ==============Wait for few seconds while page is loading properly==============
+[22 Nov 2017 17:01:38,149] [ERROR] [] [Home                    click_on_2nd_list]:[43  ] - Error While click on 2nd Link from Home page
+org.openqa.selenium.NoSuchElementException: Unable to locate element: .//*[@id='charm_image_282193']/img
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
+System info: host: 'LENOVO-PC', ip: '192.168.1.143', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{rotatable=false, raisesAccessibilityExceptions=false, appBuildId=20160421124000, version=46.0, platform=XP, proxy=Proxy(), specificationLevel=1, acceptSslCerts=false, browserVersion=46.0, platformVersion=6.1, XULappId={ec8030f7-c20a-464f-9b0e-13a3a9e97384}, browserName=Firefox, takesScreenshot=true, takesElementScreenshot=true, javascriptEnabled=true, platformName=XP, device=desktop}]
+Session ID: 8e043ff4-93eb-4497-bc12-246139f65e32
+*** Element info: {Using=xpath, value=.//*[@id='charm_image_282193']/img}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:646)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:416)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:518)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:408)
+	at com.charm.Pom.Home_page.clickon2ndLink(Home_page.java:41)
+	at com.charm.Business.Home.click_on_2nd_list(Home.java:41)
+	at com.charm.TC002.Keyword_Search(TC002.java:15)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:100)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:811)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1137)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:753)
+	at org.testng.TestRunner.run(TestRunner.java:607)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:368)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:363)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:321)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:270)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1284)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1209)
+	at org.testng.TestNG.runSuites(TestNG.java:1124)
+	at org.testng.TestNG.run(TestNG.java:1096)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+[22 Nov 2017 17:15:06,970] [ INFO] [] [TC001                               TC001]:[41  ] -  TC001 
+[22 Nov 2017 17:15:07,379] [ INFO] [] [LaunchApp                launch_Charm_App]:[46  ] - ==================Launching  charmBoard ===================
+[22 Nov 2017 17:15:19,471] [ INFO] [] [Home                          home_Search]:[26  ] - =============Search text===================
+[22 Nov 2017 17:15:19,971] [ INFO] [] [Home                          home_Search]:[31  ] - =======Search By Keyword :Shah rukh
+[22 Nov 2017 17:15:19,972] [ INFO] [] [Home                    click_on_2nd_list]:[40  ] - =============click on 2nd link from Home page===================
+[22 Nov 2017 17:15:19,972] [ INFO] [] [ReusableMethod                      pause]:[41  ] - ==============Wait for few seconds while page is loading properly==============
+[22 Nov 2017 17:15:25,019] [ INFO] [] [Home_page                  clickon2ndLink]:[48  ] - Find value from Home page ::
+[22 Nov 2017 17:15:25,109] [ INFO] [] [Home_page                  clickon2ndLink]:[50  ] - Navigate to Product select Page ...
+[22 Nov 2017 17:15:25,109] [ INFO] [] [ReusableMethod                      pause]:[41  ] - ==============Wait for few seconds while page is loading properly==============
+[22 Nov 2017 17:15:30,275] [ INFO] [] [Home_page                  clickon2ndLink]:[53  ] - Navigate to Product page ...
+[22 Nov 2017 17:48:32,960] [ INFO] [] [TC001                               TC001]:[41  ] -  TC001 
+[22 Nov 2017 17:48:33,302] [ INFO] [] [LaunchApp                launch_Charm_App]:[46  ] - ==================Launching  charmBoard ===================
+[22 Nov 2017 17:48:43,795] [ INFO] [] [Home                          home_Search]:[26  ] - =============Search text===================
+[22 Nov 2017 17:48:43,953] [ INFO] [] [Home                          home_Search]:[31  ] - =======Search By Keyword :Shah rukh
+[22 Nov 2017 17:48:43,954] [ INFO] [] [Home                    click_on_2nd_list]:[40  ] - =============click on 2nd link from Home page===================
+[22 Nov 2017 17:48:43,954] [ INFO] [] [ReusableMethod                      pause]:[41  ] - ==============Wait for few seconds while page is loading properly==============
+[22 Nov 2017 17:48:48,984] [ INFO] [] [Home_page                  clickon2ndLink]:[48  ] - Find value from Home page ::
+[22 Nov 2017 17:48:49,089] [ INFO] [] [Home_page                  clickon2ndLink]:[50  ] - Navigate to Product select Page ...
+[22 Nov 2017 17:48:49,090] [ INFO] [] [ReusableMethod                      pause]:[41  ] - ==============Wait for few seconds while page is loading properly==============
+[22 Nov 2017 17:48:54,235] [ INFO] [] [Home_page                  clickon2ndLink]:[53  ] - Navigate to Product page ...
+[22 Nov 2017 17:52:43,847] [ INFO] [] [TC001                               TC001]:[41  ] -  TC001 
+[22 Nov 2017 17:52:44,153] [ INFO] [] [LaunchApp                launch_Charm_App]:[46  ] - ==================Launching  charmBoard ===================
+[22 Nov 2017 17:52:53,377] [ INFO] [] [Home                          home_Search]:[26  ] - =============Search text===================
+[22 Nov 2017 17:52:53,884] [ INFO] [] [Home                          home_Search]:[31  ] - =======Search By Keyword :Shah rukh
+[22 Nov 2017 17:52:53,884] [ INFO] [] [Home                    click_on_2nd_list]:[40  ] - =============click on 2nd link from Home page===================
+[22 Nov 2017 17:52:53,885] [ INFO] [] [ReusableMethod                      pause]:[41  ] - ==============Wait for few seconds while page is loading properly==============
+[22 Nov 2017 17:52:58,921] [ INFO] [] [Home_page                  clickon2ndLink]:[48  ] - Find value from Home page ::
+[22 Nov 2017 17:52:59,013] [ INFO] [] [Home_page                  clickon2ndLink]:[50  ] - Navigate to Product select Page ...
+[22 Nov 2017 17:52:59,014] [ INFO] [] [ReusableMethod                      pause]:[41  ] - ==============Wait for few seconds while page is loading properly==============
+[22 Nov 2017 17:53:04,155] [ INFO] [] [Home_page                  clickon2ndLink]:[53  ] - Navigate to Product page ...

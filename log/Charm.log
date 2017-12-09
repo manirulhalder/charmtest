@@ -1,106 +1,174 @@
-[04 Dec 2017 13:10:03,756] [ INFO] [] [TC001                               TC001]:[41  ] -  TC001 
-[04 Dec 2017 13:10:05,132] [ INFO] [] [LaunchApp                launch_Charm_App]:[46  ] - ==================Launching  charmBoard ===================
-[04 Dec 2017 13:10:28,122] [ INFO] [] [Home                          home_Search]:[26  ] - =============Search text===================
-[04 Dec 2017 13:10:28,585] [ INFO] [] [Home                          home_Search]:[31  ] - =======Search By Keyword :Shah rukh
-[04 Dec 2017 13:10:28,586] [ INFO] [] [Home                    click_on_2nd_list]:[40  ] - =============click on 2nd link from Home page===================
-[04 Dec 2017 13:10:28,586] [ INFO] [] [ReusableMethod                      pause]:[41  ] - ==============Wait for few seconds while page is loading properly==============
-[04 Dec 2017 13:10:33,620] [ INFO] [] [Home_page                  clickon2ndLink]:[48  ] - Find value from Home page ::
-[04 Dec 2017 13:10:33,733] [ INFO] [] [Home_page                  clickon2ndLink]:[50  ] - Navigate to Product select Page ...
-[04 Dec 2017 13:10:33,734] [ INFO] [] [ReusableMethod                      pause]:[41  ] - ==============Wait for few seconds while page is loading properly==============
-[04 Dec 2017 13:10:38,950] [ INFO] [] [Home_page                  clickon2ndLink]:[53  ] - Navigate to Product page ...
-[04 Dec 2017 14:48:51,912] [ INFO] [] [TC001                               TC001]:[41  ] -  TC001 
-[04 Dec 2017 14:48:52,246] [ INFO] [] [LaunchApp                launch_Charm_App]:[46  ] - ==================Launching  charmBoard ===================
-[04 Dec 2017 14:49:03,242] [ INFO] [] [Home                          home_Search]:[26  ] - =============Search text===================
-[04 Dec 2017 14:49:03,727] [ INFO] [] [Home                          home_Search]:[31  ] - =======Search By Keyword :Shah rukh
-[04 Dec 2017 14:49:03,728] [ INFO] [] [Home                    click_on_2nd_list]:[40  ] - =============click on 2nd link from Home page===================
-[04 Dec 2017 14:49:03,728] [ INFO] [] [ReusableMethod                      pause]:[41  ] - ==============Wait for few seconds while page is loading properly==============
-[04 Dec 2017 14:49:08,780] [ INFO] [] [Home_page                  clickon2ndLink]:[48  ] - Find value from Home page ::
-[04 Dec 2017 14:49:08,959] [ INFO] [] [Home_page                  clickon2ndLink]:[50  ] - Navigate to Product select Page ...
-[04 Dec 2017 14:49:08,959] [ INFO] [] [ReusableMethod                      pause]:[41  ] - ==============Wait for few seconds while page is loading properly==============
-[04 Dec 2017 14:49:14,171] [ INFO] [] [Home_page                  clickon2ndLink]:[53  ] - Navigate to Product page ...
-[04 Dec 2017 15:08:55,009] [ INFO] [] [TC001                               TC001]:[41  ] -  TC001 
-[04 Dec 2017 15:08:55,384] [ INFO] [] [LaunchApp                launch_Charm_App]:[46  ] - ==================Launching  charmBoard ===================
-[04 Dec 2017 15:09:08,098] [ INFO] [] [TC002                      Keyword_Search]:[24  ] -  TC002 
-[04 Dec 2017 15:09:08,188] [ INFO] [] [Home                          home_Search]:[26  ] - =============Search text===================
-[04 Dec 2017 15:09:08,524] [ INFO] [] [Home                          home_Search]:[31  ] - =======Search By Keyword :Shah rukh
-[04 Dec 2017 15:09:08,524] [ INFO] [] [Home                    click_on_2nd_list]:[40  ] - =============click on 2nd link from Home page===================
-[04 Dec 2017 15:09:08,524] [ INFO] [] [ReusableMethod                      pause]:[41  ] - ==============Wait for few seconds while page is loading properly==============
-[04 Dec 2017 15:09:13,546] [ INFO] [] [Home_page                  clickon2ndLink]:[48  ] - Find value from Home page ::
-[04 Dec 2017 15:09:13,676] [ INFO] [] [Home_page                  clickon2ndLink]:[50  ] - Navigate to Product select Page ...
-[04 Dec 2017 15:09:13,677] [ INFO] [] [ReusableMethod                      pause]:[41  ] - ==============Wait for few seconds while page is loading properly==============
-[04 Dec 2017 15:09:18,919] [ INFO] [] [Home_page                  clickon2ndLink]:[53  ] - Navigate to Product page ...
-[04 Dec 2017 15:12:08,904] [ INFO] [] [TC001                               TC001]:[41  ] -  TC001 
-[04 Dec 2017 15:12:09,295] [ INFO] [] [LaunchApp                launch_Charm_App]:[46  ] - ==================Launching  charmBoard ===================
-[04 Dec 2017 15:12:22,027] [ INFO] [] [TC002                      Keyword_Search]:[24  ] -  TC002 
-[04 Dec 2017 15:12:22,041] [ INFO] [] [Home                          home_Search]:[26  ] - =============Search text===================
-[04 Dec 2017 15:12:22,250] [ INFO] [] [Home                          home_Search]:[31  ] - =======Search By Keyword :Shah rukh
-[04 Dec 2017 15:12:22,251] [ INFO] [] [Home                    click_on_2nd_list]:[40  ] - =============click on 2nd link from Home page===================
-[04 Dec 2017 15:12:22,251] [ INFO] [] [ReusableMethod                      pause]:[41  ] - ==============Wait for few seconds while page is loading properly==============
-[04 Dec 2017 15:12:27,273] [ INFO] [] [Home_page                  clickon2ndLink]:[48  ] - Find value from Home page ::
-[04 Dec 2017 15:12:27,351] [ INFO] [] [Home_page                  clickon2ndLink]:[50  ] - Navigate to Product select Page ...
-[04 Dec 2017 15:12:27,351] [ INFO] [] [ReusableMethod                      pause]:[41  ] - ==============Wait for few seconds while page is loading properly==============
-[04 Dec 2017 15:12:32,529] [ INFO] [] [Home_page                  clickon2ndLink]:[53  ] - Navigate to Product page ...
-[04 Dec 2017 15:24:36,263] [ INFO] [] [TC001                               TC001]:[41  ] -  TC001 
-[04 Dec 2017 15:24:36,795] [ INFO] [] [LaunchApp                launch_Charm_App]:[46  ] - ==================Launching  charmBoard ===================
-[04 Dec 2017 15:24:50,124] [ INFO] [] [TC002                      Keyword_Search]:[28  ] -  TC002 
-[04 Dec 2017 15:24:50,498] [ INFO] [] [Home                          home_Search]:[26  ] - =============Search text===================
-[04 Dec 2017 15:24:51,005] [ INFO] [] [Home                          home_Search]:[31  ] - =======Search By Keyword :Shah rukh
-[04 Dec 2017 15:24:51,006] [ INFO] [] [Home                    click_on_2nd_list]:[40  ] - =============click on 2nd link from Home page===================
-[04 Dec 2017 15:24:51,006] [ INFO] [] [ReusableMethod                      pause]:[41  ] - ==============Wait for few seconds while page is loading properly==============
-[04 Dec 2017 15:24:56,025] [ INFO] [] [Home_page                  clickon2ndLink]:[48  ] - Find value from Home page ::
-[04 Dec 2017 15:24:56,148] [ INFO] [] [Home_page                  clickon2ndLink]:[50  ] - Navigate to Product select Page ...
-[04 Dec 2017 15:24:56,148] [ INFO] [] [ReusableMethod                      pause]:[41  ] - ==============Wait for few seconds while page is loading properly==============
-[04 Dec 2017 15:25:01,625] [ INFO] [] [Home_page                  clickon2ndLink]:[53  ] - Navigate to Product page ...
-[04 Dec 2017 15:29:37,848] [ INFO] [] [TC001                               TC001]:[41  ] -  TC001 
-[04 Dec 2017 15:29:38,242] [ INFO] [] [LaunchApp                launch_Charm_App]:[46  ] - ==================Launching  charmBoard ===================
-[04 Dec 2017 15:30:05,182] [ INFO] [] [TC002                      Keyword_Search]:[28  ] -  TC002 
-[04 Dec 2017 15:30:05,538] [ INFO] [] [Home                          home_Search]:[26  ] - =============Search text===================
-[04 Dec 2017 15:30:05,773] [ INFO] [] [Home                          home_Search]:[31  ] - =======Search By Keyword :Shah rukh
-[04 Dec 2017 15:30:05,774] [ INFO] [] [Home                    click_on_2nd_list]:[40  ] - =============click on 2nd link from Home page===================
-[04 Dec 2017 15:30:05,774] [ INFO] [] [ReusableMethod                      pause]:[41  ] - ==============Wait for few seconds while page is loading properly==============
-[04 Dec 2017 15:30:10,809] [ INFO] [] [Home_page                  clickon2ndLink]:[48  ] - Find value from Home page ::
-[04 Dec 2017 15:30:10,926] [ INFO] [] [Home_page                  clickon2ndLink]:[50  ] - Navigate to Product select Page ...
-[04 Dec 2017 15:30:10,926] [ INFO] [] [ReusableMethod                      pause]:[41  ] - ==============Wait for few seconds while page is loading properly==============
-[04 Dec 2017 15:30:16,496] [ INFO] [] [Home_page                  clickon2ndLink]:[53  ] - Navigate to Product page ...
-[04 Dec 2017 16:17:50,973] [ INFO] [] [TC001                               TC001]:[41  ] -  TC001 
-[04 Dec 2017 16:17:51,353] [ INFO] [] [LaunchApp                launch_Charm_App]:[46  ] - ==================Launching  charmBoard ===================
-[04 Dec 2017 16:18:05,966] [ INFO] [] [TC002                      Keyword_Search]:[28  ] -  TC002 
-[04 Dec 2017 16:18:06,567] [ INFO] [] [Home                          home_Search]:[26  ] - =============Search text===================
-[04 Dec 2017 16:18:06,738] [ INFO] [] [Home                          home_Search]:[31  ] - =======Search By Keyword :Shah rukh
-[04 Dec 2017 16:18:06,738] [ INFO] [] [Home                    click_on_2nd_list]:[40  ] - =============click on 2nd link from Home page===================
-[04 Dec 2017 16:18:06,738] [ INFO] [] [ReusableMethod                      pause]:[41  ] - ==============Wait for few seconds while page is loading properly==============
-[04 Dec 2017 16:18:11,820] [ INFO] [] [Home_page                  clickon2ndLink]:[48  ] - Find value from Home page ::
-[04 Dec 2017 16:18:11,893] [ INFO] [] [Home_page                  clickon2ndLink]:[50  ] - Navigate to Product select Page ...
-[04 Dec 2017 16:18:11,893] [ INFO] [] [ReusableMethod                      pause]:[41  ] - ==============Wait for few seconds while page is loading properly==============
-[04 Dec 2017 16:18:17,201] [ INFO] [] [Home_page                  clickon2ndLink]:[53  ] - Navigate to Product page ...
-[04 Dec 2017 16:18:20,657] [ INFO] [] [getApi                testApiresponsecode]:[40  ] -  getApi 
-[04 Dec 2017 16:18:23,727] [ INFO] [] [getApi                        testApitime]:[75  ] -  getApi 
-[04 Dec 2017 16:18:24,558] [ INFO] [] [getApi               testExtractDetailsusingResponse]:[105 ] -  getApi 
-[04 Dec 2017 16:22:23,027] [ INFO] [] [TC001                               TC001]:[41  ] -  TC001 
-[04 Dec 2017 16:22:23,357] [ INFO] [] [LaunchApp                launch_Charm_App]:[46  ] - ==================Launching  charmBoard ===================
-[04 Dec 2017 16:22:37,130] [ INFO] [] [TC002                      Keyword_Search]:[28  ] -  TC002 
-[04 Dec 2017 16:22:37,529] [ INFO] [] [Home                          home_Search]:[26  ] - =============Search text===================
-[04 Dec 2017 16:22:37,756] [ INFO] [] [Home                          home_Search]:[31  ] - =======Search By Keyword :Shah rukh
-[04 Dec 2017 16:22:37,756] [ INFO] [] [Home                    click_on_2nd_list]:[40  ] - =============click on 2nd link from Home page===================
-[04 Dec 2017 16:22:37,756] [ INFO] [] [ReusableMethod                      pause]:[41  ] - ==============Wait for few seconds while page is loading properly==============
-[04 Dec 2017 16:22:42,798] [ INFO] [] [Home_page                  clickon2ndLink]:[48  ] - Find value from Home page ::
-[04 Dec 2017 16:22:42,908] [ INFO] [] [Home_page                  clickon2ndLink]:[50  ] - Navigate to Product select Page ...
-[04 Dec 2017 16:22:42,909] [ INFO] [] [ReusableMethod                      pause]:[41  ] - ==============Wait for few seconds while page is loading properly==============
-[04 Dec 2017 16:22:48,085] [ INFO] [] [Home_page                  clickon2ndLink]:[53  ] - Navigate to Product page ...
-[04 Dec 2017 16:23:04,475] [ INFO] [] [getApi                testApiresponsecode]:[40  ] -  getApi 
-[04 Dec 2017 16:23:07,053] [ INFO] [] [getApi                        testApitime]:[75  ] -  getApi 
-[04 Dec 2017 16:23:07,696] [ INFO] [] [getApi               testExtractDetailsusingResponse]:[105 ] -  getApi 
-[04 Dec 2017 16:27:08,327] [ INFO] [] [TC001                               TC001]:[41  ] -  TC001 
-[04 Dec 2017 16:27:08,632] [ INFO] [] [LaunchApp                launch_Charm_App]:[46  ] - ==================Launching  charmBoard ===================
-[04 Dec 2017 16:27:20,998] [ INFO] [] [TC002                      Keyword_Search]:[28  ] -  TC002 
-[04 Dec 2017 16:27:21,250] [ INFO] [] [Home                          home_Search]:[26  ] - =============Search text===================
-[04 Dec 2017 16:27:21,406] [ INFO] [] [Home                          home_Search]:[31  ] - =======Search By Keyword :Shah rukh
-[04 Dec 2017 16:27:21,407] [ INFO] [] [Home                    click_on_2nd_list]:[40  ] - =============click on 2nd link from Home page===================
-[04 Dec 2017 16:27:21,407] [ INFO] [] [ReusableMethod                      pause]:[41  ] - ==============Wait for few seconds while page is loading properly==============
-[04 Dec 2017 16:27:26,449] [ INFO] [] [Home_page                  clickon2ndLink]:[48  ] - Find value from Home page ::
-[04 Dec 2017 16:27:26,532] [ INFO] [] [Home_page                  clickon2ndLink]:[50  ] - Navigate to Product select Page ...
-[04 Dec 2017 16:27:26,532] [ INFO] [] [ReusableMethod                      pause]:[41  ] - ==============Wait for few seconds while page is loading properly==============
-[04 Dec 2017 16:27:31,745] [ INFO] [] [Home_page                  clickon2ndLink]:[53  ] - Navigate to Product page ...
-[04 Dec 2017 16:27:32,776] [ INFO] [] [getApi                testApiresponsecode]:[40  ] -  getApi 
-[04 Dec 2017 16:27:35,590] [ INFO] [] [getApi                        testApitime]:[75  ] -  getApi 
-[04 Dec 2017 16:27:36,165] [ INFO] [] [getApi               testExtractDetailsusingResponse]:[105 ] -  getApi 
+[09 Dec 2017 12:10:14,303] [ INFO] [] [TC001                               TC001]:[41  ] -  TC001 
+[09 Dec 2017 12:10:14,814] [ INFO] [] [LaunchApp                launch_Charm_App]:[46  ] - ==================Launching  charmBoard ===================
+[09 Dec 2017 12:10:33,602] [ INFO] [] [TC002                      Keyword_Search]:[28  ] -  TC002 
+[09 Dec 2017 12:10:34,061] [ INFO] [] [Home                          home_Search]:[26  ] - =============Search text===================
+[09 Dec 2017 12:10:34,985] [ INFO] [] [Home                          home_Search]:[31  ] - =======Search By Keyword :Shah rukh
+[09 Dec 2017 12:10:34,985] [ INFO] [] [Home                    click_on_2nd_list]:[40  ] - =============click on 2nd link from Home page===================
+[09 Dec 2017 12:10:34,985] [ INFO] [] [ReusableMethod                      pause]:[41  ] - ==============Wait for few seconds while page is loading properly==============
+[09 Dec 2017 12:10:40,007] [ INFO] [] [Home_page                  clickon2ndLink]:[48  ] - Find value from Home page ::
+[09 Dec 2017 12:10:40,079] [ INFO] [] [Home_page                  clickon2ndLink]:[50  ] - Navigate to Product select Page ...
+[09 Dec 2017 12:10:40,080] [ INFO] [] [ReusableMethod                      pause]:[41  ] - ==============Wait for few seconds while page is loading properly==============
+[09 Dec 2017 12:10:45,397] [ INFO] [] [Home_page                  clickon2ndLink]:[53  ] - Navigate to Product page ...
+[09 Dec 2017 12:10:45,977] [ INFO] [] [TC004                               TC004]:[45  ] -  TC004 
+[09 Dec 2017 12:10:46,111] [ INFO] [] [LaunchApp                launch_Charm_App]:[46  ] - ==================Launching  charmBoard ===================
+[09 Dec 2017 12:11:07,058] [ INFO] [] [getApi                testApiresponsecode]:[40  ] -  getApi 
+[09 Dec 2017 12:11:12,345] [ INFO] [] [getApi                        testApitime]:[75  ] -  getApi 
+[09 Dec 2017 12:11:13,086] [ INFO] [] [getApi               testExtractDetailsusingResponse]:[105 ] -  getApi 
+[09 Dec 2017 12:16:03,956] [ INFO] [] [TC001                               TC001]:[41  ] -  TC001 
+[09 Dec 2017 12:16:04,294] [ INFO] [] [LaunchApp                launch_Charm_App]:[46  ] - ==================Launching  charmBoard ===================
+[09 Dec 2017 12:16:15,159] [ INFO] [] [TC002                      Keyword_Search]:[28  ] -  TC002 
+[09 Dec 2017 12:16:15,424] [ INFO] [] [Home                          home_Search]:[26  ] - =============Search text===================
+[09 Dec 2017 12:16:15,649] [ INFO] [] [Home                          home_Search]:[31  ] - =======Search By Keyword :Shah rukh
+[09 Dec 2017 12:16:15,650] [ INFO] [] [Home                    click_on_2nd_list]:[40  ] - =============click on 2nd link from Home page===================
+[09 Dec 2017 12:16:15,650] [ INFO] [] [ReusableMethod                      pause]:[41  ] - ==============Wait for few seconds while page is loading properly==============
+[09 Dec 2017 12:16:20,699] [ INFO] [] [Home_page                  clickon2ndLink]:[48  ] - Find value from Home page ::
+[09 Dec 2017 12:16:20,813] [ INFO] [] [Home_page                  clickon2ndLink]:[50  ] - Navigate to Product select Page ...
+[09 Dec 2017 12:16:20,814] [ INFO] [] [ReusableMethod                      pause]:[41  ] - ==============Wait for few seconds while page is loading properly==============
+[09 Dec 2017 12:16:25,977] [ INFO] [] [Home_page                  clickon2ndLink]:[53  ] - Navigate to Product page ...
+[09 Dec 2017 12:16:26,417] [ INFO] [] [TC004                               TC004]:[45  ] -  TC004 
+[09 Dec 2017 12:16:26,528] [ INFO] [] [LaunchApp                launch_Charm_App]:[46  ] - ==================Launching  charmBoard ===================
+[09 Dec 2017 12:16:40,295] [ INFO] [] [getApi                testApiresponsecode]:[40  ] -  getApi 
+[09 Dec 2017 12:16:42,877] [ INFO] [] [getApi                        testApitime]:[75  ] -  getApi 
+[09 Dec 2017 12:16:43,496] [ INFO] [] [getApi               testExtractDetailsusingResponse]:[105 ] -  getApi 
+[09 Dec 2017 15:31:29,899] [ INFO] [] [TC001                               TC001]:[41  ] -  TC001 
+[09 Dec 2017 15:31:30,197] [ INFO] [] [LaunchApp                launch_Charm_App]:[46  ] - ==================Launching  charmBoard ===================
+[09 Dec 2017 15:31:41,495] [ INFO] [] [TC002                      Keyword_Search]:[28  ] -  TC002 
+[09 Dec 2017 15:31:42,009] [ INFO] [] [Home                          home_Search]:[26  ] - =============Search text===================
+[09 Dec 2017 15:31:42,161] [ INFO] [] [Home                          home_Search]:[31  ] - =======Search By Keyword :Shah rukh
+[09 Dec 2017 15:31:42,161] [ INFO] [] [Home                    click_on_2nd_list]:[40  ] - =============click on 2nd link from Home page===================
+[09 Dec 2017 15:31:42,161] [ INFO] [] [ReusableMethod                      pause]:[41  ] - ==============Wait for few seconds while page is loading properly==============
+[09 Dec 2017 15:31:47,198] [ INFO] [] [Home_page                  clickon2ndLink]:[48  ] - Find value from Home page ::
+[09 Dec 2017 15:31:47,267] [ INFO] [] [Home_page                  clickon2ndLink]:[50  ] - Navigate to Product select Page ...
+[09 Dec 2017 15:31:47,268] [ INFO] [] [ReusableMethod                      pause]:[41  ] - ==============Wait for few seconds while page is loading properly==============
+[09 Dec 2017 15:31:52,417] [ INFO] [] [Home_page                  clickon2ndLink]:[53  ] - Navigate to Product page ...
+[09 Dec 2017 15:31:52,812] [ INFO] [] [TC004                               TC004]:[45  ] -  TC004 
+[09 Dec 2017 15:31:52,915] [ INFO] [] [LaunchApp                launch_Charm_App]:[46  ] - ==================Launching  charmBoard ===================
+[09 Dec 2017 15:32:07,873] [ INFO] [] [getApi                testApiresponsecode]:[40  ] -  getApi 
+[09 Dec 2017 15:32:10,489] [ INFO] [] [getApi                        testApitime]:[75  ] -  getApi 
+[09 Dec 2017 15:32:11,213] [ INFO] [] [getApi               testExtractDetailsusingResponse]:[105 ] -  getApi 
+[09 Dec 2017 15:37:26,345] [ INFO] [] [TC004                               TC004]:[45  ] -  TC004 
+[09 Dec 2017 15:37:26,877] [ INFO] [] [LaunchApp                launch_Charm_App]:[46  ] - ==================Launching  charmBoard ===================
+[09 Dec 2017 15:37:55,483] [ INFO] [] [TC004                               TC004]:[45  ] -  TC004 
+[09 Dec 2017 15:37:55,921] [ INFO] [] [LaunchApp                launch_Charm_App]:[46  ] - ==================Launching  charmBoard ===================
+[09 Dec 2017 15:38:33,821] [ INFO] [] [TC001                               TC001]:[41  ] -  TC001 
+[09 Dec 2017 15:38:34,219] [ INFO] [] [LaunchApp                launch_Charm_App]:[46  ] - ==================Launching  charmBoard ===================
+[09 Dec 2017 15:38:46,467] [ INFO] [] [TC002                      Keyword_Search]:[28  ] -  TC002 
+[09 Dec 2017 15:38:47,004] [ INFO] [] [Home                          home_Search]:[26  ] - =============Search text===================
+[09 Dec 2017 15:38:47,225] [ INFO] [] [Home                          home_Search]:[31  ] - =======Search By Keyword :Shah rukh
+[09 Dec 2017 15:38:47,226] [ INFO] [] [Home                    click_on_2nd_list]:[40  ] - =============click on 2nd link from Home page===================
+[09 Dec 2017 15:38:47,226] [ INFO] [] [ReusableMethod                      pause]:[41  ] - ==============Wait for few seconds while page is loading properly==============
+[09 Dec 2017 15:38:52,256] [ INFO] [] [Home_page                  clickon2ndLink]:[48  ] - Find value from Home page ::
+[09 Dec 2017 15:38:52,367] [ INFO] [] [Home_page                  clickon2ndLink]:[50  ] - Navigate to Product select Page ...
+[09 Dec 2017 15:38:52,367] [ INFO] [] [ReusableMethod                      pause]:[41  ] - ==============Wait for few seconds while page is loading properly==============
+[09 Dec 2017 15:38:57,543] [ INFO] [] [Home_page                  clickon2ndLink]:[53  ] - Navigate to Product page ...
+[09 Dec 2017 15:38:57,981] [ INFO] [] [TC004                               TC004]:[45  ] -  TC004 
+[09 Dec 2017 15:38:58,154] [ INFO] [] [LaunchApp                launch_Charm_App]:[46  ] - ==================Launching  charmBoard ===================
+[09 Dec 2017 15:39:12,621] [ INFO] [] [getApi                testApiresponsecode]:[40  ] -  getApi 
+[09 Dec 2017 15:39:15,966] [ INFO] [] [getApi                        testApitime]:[75  ] -  getApi 
+[09 Dec 2017 15:39:16,665] [ INFO] [] [getApi               testExtractDetailsusingResponse]:[105 ] -  getApi 
+[09 Dec 2017 16:16:12,780] [ INFO] [] [TC001                               TC001]:[41  ] -  TC001 
+[09 Dec 2017 16:16:13,085] [ INFO] [] [LaunchApp                launch_Charm_App]:[46  ] - ==================Launching  charmBoard ===================
+[09 Dec 2017 16:16:23,198] [ INFO] [] [TC002                      Keyword_Search]:[28  ] -  TC002 
+[09 Dec 2017 16:16:23,480] [ INFO] [] [Home                          home_Search]:[26  ] - =============Search text===================
+[09 Dec 2017 16:16:23,715] [ INFO] [] [Home                          home_Search]:[31  ] - =======Search By Keyword :Shah rukh
+[09 Dec 2017 16:16:23,715] [ INFO] [] [Home                    click_on_2nd_list]:[40  ] - =============click on 2nd link from Home page===================
+[09 Dec 2017 16:16:23,715] [ INFO] [] [ReusableMethod                      pause]:[41  ] - ==============Wait for few seconds while page is loading properly==============
+[09 Dec 2017 16:16:28,765] [ INFO] [] [Home_page                  clickon2ndLink]:[48  ] - Find value from Home page ::
+[09 Dec 2017 16:16:28,870] [ INFO] [] [Home_page                  clickon2ndLink]:[50  ] - Navigate to Product select Page ...
+[09 Dec 2017 16:16:28,870] [ INFO] [] [ReusableMethod                      pause]:[41  ] - ==============Wait for few seconds while page is loading properly==============
+[09 Dec 2017 16:16:34,024] [ INFO] [] [Home_page                  clickon2ndLink]:[53  ] - Navigate to Product page ...
+[09 Dec 2017 16:16:34,430] [ INFO] [] [TC004                               TC004]:[45  ] -  TC004 
+[09 Dec 2017 16:16:34,581] [ INFO] [] [LaunchApp                launch_Charm_App]:[46  ] - ==================Launching  charmBoard ===================
+[09 Dec 2017 16:16:47,804] [ INFO] [] [ReusableMethod                      pause]:[41  ] - ==============Wait for few seconds while page is loading properly==============
+[09 Dec 2017 16:16:52,888] [ INFO] [] [Men                        clickon2ndLink]:[50  ] - Navigate to Men's page...
+[09 Dec 2017 16:16:52,888] [ INFO] [] [ReusableMethod                      pause]:[41  ] - ==============Wait for few seconds while page is loading properly==============
+[09 Dec 2017 16:16:57,932] [ INFO] [] [Men                        clickon2ndLink]:[54  ] - Navigate to Men's Fashion Page ...
+[09 Dec 2017 16:16:58,203] [ INFO] [] [getApi                testApiresponsecode]:[40  ] -  getApi 
+[09 Dec 2017 16:17:01,057] [ INFO] [] [getApi                        testApitime]:[75  ] -  getApi 
+[09 Dec 2017 16:17:01,837] [ INFO] [] [getApi               testExtractDetailsusingResponse]:[105 ] -  getApi 
+[09 Dec 2017 16:20:20,185] [ INFO] [] [TC001                               TC001]:[41  ] -  TC001 
+[09 Dec 2017 16:20:20,546] [ INFO] [] [LaunchApp                launch_Charm_App]:[46  ] - ==================Launching  charmBoard ===================
+[09 Dec 2017 16:20:30,488] [ INFO] [] [TC002                      Keyword_Search]:[28  ] -  TC002 
+[09 Dec 2017 16:20:30,948] [ INFO] [] [Home                          home_Search]:[26  ] - =============Search text===================
+[09 Dec 2017 16:20:31,142] [ INFO] [] [Home                          home_Search]:[31  ] - =======Search By Keyword :Shah rukh
+[09 Dec 2017 16:20:31,142] [ INFO] [] [Home                    click_on_2nd_list]:[40  ] - =============click on 2nd link from Home page===================
+[09 Dec 2017 16:20:31,142] [ INFO] [] [ReusableMethod                      pause]:[41  ] - ==============Wait for few seconds while page is loading properly==============
+[09 Dec 2017 16:20:36,172] [ INFO] [] [Home_page                  clickon2ndLink]:[48  ] - Find value from Home page ::
+[09 Dec 2017 16:20:36,305] [ INFO] [] [Home_page                  clickon2ndLink]:[50  ] - Navigate to Product select Page ...
+[09 Dec 2017 16:20:36,306] [ INFO] [] [ReusableMethod                      pause]:[41  ] - ==============Wait for few seconds while page is loading properly==============
+[09 Dec 2017 16:20:41,493] [ INFO] [] [Home_page                  clickon2ndLink]:[53  ] - Navigate to Product page ...
+[09 Dec 2017 16:20:42,924] [ INFO] [] [TC004                               TC004]:[45  ] -  TC004 
+[09 Dec 2017 16:20:43,268] [ INFO] [] [LaunchApp                launch_Charm_App]:[46  ] - ==================Launching  charmBoard ===================
+[09 Dec 2017 16:20:55,085] [ INFO] [] [ReusableMethod                      pause]:[41  ] - ==============Wait for few seconds while page is loading properly==============
+[09 Dec 2017 16:21:00,231] [ INFO] [] [Men                        clickon2ndLink]:[50  ] - Navigate to Men's page...
+[09 Dec 2017 16:21:00,231] [ INFO] [] [ReusableMethod                      pause]:[41  ] - ==============Wait for few seconds while page is loading properly==============
+[09 Dec 2017 16:21:05,274] [ INFO] [] [Men                        clickon2ndLink]:[54  ] - Navigate to Men's Fashion Page ...
+[09 Dec 2017 16:21:05,379] [ INFO] [] [getApi                testApiresponsecode]:[40  ] -  getApi 
+[09 Dec 2017 16:21:07,765] [ INFO] [] [getApi                        testApitime]:[75  ] -  getApi 
+[09 Dec 2017 16:21:08,419] [ INFO] [] [getApi               testExtractDetailsusingResponse]:[105 ] -  getApi 
+[09 Dec 2017 16:33:27,897] [ INFO] [] [TC001                               TC001]:[41  ] -  TC001 
+[09 Dec 2017 16:33:28,275] [ INFO] [] [LaunchApp                launch_Charm_App]:[46  ] - ==================Launching  charmBoard ===================
+[09 Dec 2017 16:33:38,936] [ INFO] [] [TC002                      Keyword_Search]:[28  ] -  TC002 
+[09 Dec 2017 16:33:39,355] [ INFO] [] [Home                          home_Search]:[26  ] - =============Search text===================
+[09 Dec 2017 16:33:39,522] [ INFO] [] [Home                          home_Search]:[31  ] - =======Search By Keyword :Shah rukh
+[09 Dec 2017 16:33:39,522] [ INFO] [] [Home                    click_on_2nd_list]:[40  ] - =============click on 2nd link from Home page===================
+[09 Dec 2017 16:33:39,522] [ INFO] [] [ReusableMethod                      pause]:[41  ] - ==============Wait for few seconds while page is loading properly==============
+[09 Dec 2017 16:33:44,554] [ INFO] [] [Home_page                  clickon2ndLink]:[48  ] - Find value from Home page ::
+[09 Dec 2017 16:33:44,704] [ INFO] [] [Home_page                  clickon2ndLink]:[50  ] - Navigate to Product select Page ...
+[09 Dec 2017 16:33:44,704] [ INFO] [] [ReusableMethod                      pause]:[41  ] - ==============Wait for few seconds while page is loading properly==============
+[09 Dec 2017 16:33:49,854] [ INFO] [] [Home_page                  clickon2ndLink]:[53  ] - Navigate to Product page ...
+[09 Dec 2017 16:33:50,352] [ INFO] [] [TC004                               TC004]:[45  ] -  TC004 
+[09 Dec 2017 16:33:50,505] [ INFO] [] [LaunchApp                launch_Charm_App]:[46  ] - ==================Launching  charmBoard ===================
+[09 Dec 2017 16:34:02,659] [ INFO] [] [ReusableMethod                      pause]:[41  ] - ==============Wait for few seconds while page is loading properly==============
+[09 Dec 2017 16:34:07,781] [ INFO] [] [Men                        clickon2ndLink]:[50  ] - Navigate to Men's page...
+[09 Dec 2017 16:34:07,782] [ INFO] [] [ReusableMethod                      pause]:[41  ] - ==============Wait for few seconds while page is loading properly==============
+[09 Dec 2017 16:34:09,844] [ INFO] [] [Men                        clickon2ndLink]:[55  ] - Navigate to Men's Fashion Page ...
+[09 Dec 2017 16:34:10,032] [ INFO] [] [getApi                testApiresponsecode]:[40  ] -  getApi 
+[09 Dec 2017 16:34:12,237] [ INFO] [] [getApi                        testApitime]:[75  ] -  getApi 
+[09 Dec 2017 16:34:12,924] [ INFO] [] [getApi               testExtractDetailsusingResponse]:[105 ] -  getApi 
+[09 Dec 2017 16:36:54,916] [ INFO] [] [TC001                               TC001]:[41  ] -  TC001 
+[09 Dec 2017 16:36:55,327] [ INFO] [] [LaunchApp                launch_Charm_App]:[46  ] - ==================Launching  charmBoard ===================
+[09 Dec 2017 16:37:05,938] [ INFO] [] [TC002                      Keyword_Search]:[28  ] -  TC002 
+[09 Dec 2017 16:37:06,463] [ INFO] [] [Home                          home_Search]:[26  ] - =============Search text===================
+[09 Dec 2017 16:37:06,639] [ INFO] [] [Home                          home_Search]:[31  ] - =======Search By Keyword :Shah rukh
+[09 Dec 2017 16:37:06,639] [ INFO] [] [Home                    click_on_2nd_list]:[40  ] - =============click on 2nd link from Home page===================
+[09 Dec 2017 16:37:06,640] [ INFO] [] [ReusableMethod                      pause]:[41  ] - ==============Wait for few seconds while page is loading properly==============
+[09 Dec 2017 16:37:11,687] [ INFO] [] [Home_page                  clickon2ndLink]:[48  ] - Find value from Home page ::
+[09 Dec 2017 16:37:11,816] [ INFO] [] [Home_page                  clickon2ndLink]:[50  ] - Navigate to Product select Page ...
+[09 Dec 2017 16:37:11,816] [ INFO] [] [ReusableMethod                      pause]:[41  ] - ==============Wait for few seconds while page is loading properly==============
+[09 Dec 2017 16:37:16,967] [ INFO] [] [Home_page                  clickon2ndLink]:[53  ] - Navigate to Product page ...
+[09 Dec 2017 16:37:17,526] [ INFO] [] [TC004                               TC004]:[45  ] -  TC004 
+[09 Dec 2017 16:37:17,754] [ INFO] [] [LaunchApp                launch_Charm_App]:[46  ] - ==================Launching  charmBoard ===================
+[09 Dec 2017 16:37:29,411] [ INFO] [] [ReusableMethod                      pause]:[41  ] - ==============Wait for few seconds while page is loading properly==============
+[09 Dec 2017 16:37:34,522] [ INFO] [] [Men                        clickon2ndLink]:[50  ] - Navigate to Men's page...
+[09 Dec 2017 16:37:34,524] [ INFO] [] [ReusableMethod                      pause]:[41  ] - ==============Wait for few seconds while page is loading properly==============
+[09 Dec 2017 16:37:36,771] [ INFO] [] [Men                        clickon2ndLink]:[55  ] - Navigate to Men's Fashion Page ...
+[09 Dec 2017 16:37:36,811] [ INFO] [] [getApi                testApiresponsecode]:[40  ] -  getApi 
+[09 Dec 2017 16:37:39,957] [ INFO] [] [getApi                        testApitime]:[75  ] -  getApi 
+[09 Dec 2017 16:37:40,714] [ INFO] [] [getApi               testExtractDetailsusingResponse]:[105 ] -  getApi 
+[09 Dec 2017 16:54:59,901] [ INFO] [] [TC001                               TC001]:[41  ] -  TC001 
+[09 Dec 2017 16:55:00,286] [ INFO] [] [LaunchApp                launch_Charm_App]:[46  ] - ==================Launching  charmBoard ===================
+[09 Dec 2017 16:55:11,166] [ INFO] [] [TC002                      Keyword_Search]:[28  ] -  TC002 
+[09 Dec 2017 16:55:11,783] [ INFO] [] [Home                          home_Search]:[26  ] - =============Search text===================
+[09 Dec 2017 16:55:12,001] [ INFO] [] [Home                          home_Search]:[31  ] - =======Search By Keyword :Shah rukh
+[09 Dec 2017 16:55:12,001] [ INFO] [] [Home                    click_on_2nd_list]:[40  ] - =============click on 2nd link from Home page===================
+[09 Dec 2017 16:55:12,001] [ INFO] [] [ReusableMethod                      pause]:[41  ] - ==============Wait for few seconds while page is loading properly==============
+[09 Dec 2017 16:55:17,036] [ INFO] [] [Home_page                  clickon2ndLink]:[48  ] - Find value from Home page ::
+[09 Dec 2017 16:55:17,157] [ INFO] [] [Home_page                  clickon2ndLink]:[50  ] - Navigate to Product select Page ...
+[09 Dec 2017 16:55:17,157] [ INFO] [] [ReusableMethod                      pause]:[41  ] - ==============Wait for few seconds while page is loading properly==============
+[09 Dec 2017 16:55:22,309] [ INFO] [] [Home_page                  clickon2ndLink]:[53  ] - Navigate to Product page ...
+[09 Dec 2017 16:55:22,688] [ INFO] [] [TC004                               TC004]:[45  ] -  TC004 
+[09 Dec 2017 16:55:22,855] [ INFO] [] [LaunchApp                launch_Charm_App]:[46  ] - ==================Launching  charmBoard ===================
+[09 Dec 2017 16:55:34,805] [ INFO] [] [ReusableMethod                      pause]:[41  ] - ==============Wait for few seconds while page is loading properly==============
+[09 Dec 2017 16:55:39,878] [ INFO] [] [Men                        clickon2ndLink]:[50  ] - Navigate to Men's page...
+[09 Dec 2017 16:55:39,878] [ INFO] [] [ReusableMethod                      pause]:[41  ] - ==============Wait for few seconds while page is loading properly==============
+[09 Dec 2017 16:55:41,973] [ INFO] [] [Men                        clickon2ndLink]:[55  ] - Navigate to Men's Fashion Page ...
+[09 Dec 2017 16:55:41,973] [ INFO] [] [ReusableMethod                      pause]:[41  ] - ==============Wait for few seconds while page is loading properly==============
+[09 Dec 2017 16:55:43,973] [ INFO] [] [Men                        clickon2ndLink]:[57  ] - Navigate to Add To Board ...
+[09 Dec 2017 16:55:44,073] [ INFO] [] [ReusableMethod                      pause]:[41  ] - ==============Wait for few seconds while page is loading properly==============
+[09 Dec 2017 16:55:46,074] [ INFO] [] [Men                        clickon2ndLink]:[65  ] - Login To Gmail Account ...
+[09 Dec 2017 16:55:46,120] [ INFO] [] [ReusableMethod                      pause]:[41  ] - ==============Wait for few seconds while page is loading properly==============
+[09 Dec 2017 16:55:48,120] [ INFO] [] [Men                        clickon2ndLink]:[72  ] - Login To Gmail Account Username / Password ...
+[09 Dec 2017 16:55:48,147] [ INFO] [] [getApi                testApiresponsecode]:[40  ] -  getApi 
+[09 Dec 2017 16:55:51,146] [ INFO] [] [getApi                        testApitime]:[75  ] -  getApi 
+[09 Dec 2017 16:55:51,967] [ INFO] [] [getApi               testExtractDetailsusingResponse]:[105 ] -  getApi 
