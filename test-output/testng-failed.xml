@@ -3,11 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
   <test name="Test(failed)">
     <classes>
-      <class name="com.charm.TC003">
+      <class name="com.charm.TC004">
         <methods>
-          <include name="closeBrowser"/>
+          <include name="TC004"/>
         </methods>
-      </class> <!-- com.charm.TC003 -->
+      </class> <!-- com.charm.TC004 -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

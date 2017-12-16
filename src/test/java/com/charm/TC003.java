@@ -6,7 +6,7 @@ public class TC003 {
 
 	
 	@Test
-	public void closeBrowser(){
+	public void quitBrowser(){
 	Driver.driver.quit();
 	}
 }
